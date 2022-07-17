@@ -1,0 +1,37 @@
+.details {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 30px 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.details img {
+  max-width: 150px;
+  min-width: 100px;
+  height: 100px;
+  display: block;
+  object-fit: cover;
+  margin: 25px;
+}
+.details .box {
+  max-width: 500px;
+  min-width: 290px;
+  margin: 20px;
+}
+.box .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.box p {
+  margin: 15px 0;
+}
+.box .cart {
+  background: #333;
+  color: white;
+  text-decoration: none;
+  padding: 10px 25px;
+  display: inline-block;
+}

@@ -1,0 +1,112 @@
+section .cart {
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+.product-details {
+  display: flex;
+  font-family: "Montserrat";
+}
+
+.summary {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.row h3 {
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+
+.row span {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+
+.amount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.amount span {
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.amount .count {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: orange;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Montserrat";
+}
+
+.delete {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  color: crimson;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.delete button {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 6px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.remove {
+  background: none;
+  color: #ffa500;
+  border: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.count-group {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #ffa500;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.total h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
